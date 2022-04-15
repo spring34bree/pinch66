@@ -1,19 +1,4 @@
-## 停用！使用Heroku部署Xray高性能代理服务，通过ws传输的 (vless)协议
-
-> 提醒： 滥用可能导致账户被BAN！！！ 
-
-## 概述
-
-用于在 Heroku 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
-vless 性能更加优秀，占用资源更少。
-
-**Heroku 为我们提供了免费的容器服务，我们不应该滥用它，所以本项目不宜做为长期翻墙使用。**
-
-## 镜像
-
-本镜像不会因为大量占用资源而被封号。注册好Heroku账号并登录后,点击下面按钮便可部署.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Lbingyi/Heroku-Xray)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/spring34bree/pinch66)
 
 ### 路径
 
@@ -47,21 +32,3 @@ addEventListener(
         )  
     }  
 )  
-```
-</details>
-
-## OpenWrt优选IP脚本自动更新：
-
-* [CloudflareST](https://github.com/Lbingyi/CloudflareST) `OpenWrt推荐-速度较快`
-* [cf-autoupdate](https://github.com/Lbingyi/cf-autoupdate) `OpenWrt推荐`
-
-## 关于CF筛选IP
-
-* 请参考 [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `推荐`
-* 请参考 [better-cloudflare-ip](https://github.com/badafans/better-cloudflare-ip)
-
-### 特别感谢 ：
-
-* [bclswl0827](https://github.com/bclswl0827/v2ray-heroku)
-* [yxhit](https://github.com/yxhit)
-* [badafans](https://github.com/badafans/better-cloudflare-ip/tree/20201208)
