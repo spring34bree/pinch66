@@ -5,10 +5,10 @@
     "env": {
         "UUID": {
             "description": "XRay UUID",
-            "value": "24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+            "value": "9bbefe2c-b2e4-4be1-a508-895a7bc24dc7"
         }
     },
-    "website": "https://github.com/Lbingyi/Xray-Heroku",
-    "repository": "https://github.com/Lbingyi/Xray-Heroku",
+    "website": "https://github.com/spring34bree/pinch66",
+    "repository": "https://github.com/spring34bree/pinch66",
     "stack": "container"
 }
